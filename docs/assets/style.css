@@ -12,15 +12,15 @@ body {
 }
 
 #permissions {
-  list-style-type: url("./green.png");
+  list-style-image: url("./green.png");
 }
 
 #conditions {
-  list-style-type: url("./blue.png");
+  list-style-image: url("./blue.png");
 }
 
 #limitations {
-  list-style-type: url("./red.png");
+  list-style-image: url("./red.png");
 }
 
 pre {
