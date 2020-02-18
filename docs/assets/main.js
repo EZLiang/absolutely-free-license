@@ -6,10 +6,12 @@
 
   var button = document.getElementById("copy");
   var license = document.getElementById("license");
+  var field = document.getElementById("input");
+  field.value = license.innerText;
 
   function copylicense() {
-    license.select();
-    license.setSelectionRange(0, 9999);
+    field.select();
+    field.setSelectionRange(0, 1000);
     document.execCommand("copy");
   }
 
